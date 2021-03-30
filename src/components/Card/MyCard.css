@@ -1,0 +1,9 @@
+
+.myCard{
+    width: 200px;
+    /*height: 200px;*/
+    border-radius: 50%;
+    border: 3px solid #2ed42a;
+    padding: 0px;
+    text-align: center;
+}
