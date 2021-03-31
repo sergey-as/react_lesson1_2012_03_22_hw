@@ -1,0 +1,8 @@
+.myinput{
+    padding: 0;
+    margin: 0;
+    width: 500px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,9 +1,14 @@
 import React from 'react';
+import MySubmit from "../submit/Submit";
+import './Input.css';
 
-export const myInput = (props) => {
+export const MyInput = (props) => {
     return(
-        <div>
-            <input type="text"/>
+        <div className={'myinput'}>
+            <label>
+                {props.label} <input type={props.type} name={props.name}/>
+            </label>
+            <MySubmit type={'submit'} value={'5 Send'}/>
         </div>
     )
 }
