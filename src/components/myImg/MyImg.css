@@ -1,0 +1,9 @@
+.myImg {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    border: 5px greenyellow ;
+    border-radius: 7px;
+    border-style: dotted;
+    height: 150px;
+}

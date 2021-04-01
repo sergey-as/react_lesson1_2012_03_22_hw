@@ -1,7 +1,7 @@
 // import React from "react";
 import React, {Component} from 'react';
 
-export class ContentBlock extends Component {
+export class MyContentBlock extends Component {
     render() {
         console.log(this.props);
         return (
@@ -13,4 +13,4 @@ export class ContentBlock extends Component {
     }
 }
 
-// export default ContentBlock;
+// export default MyContentBlock;
